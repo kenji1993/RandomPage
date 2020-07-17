@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Random Page</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/aos.css">
+    <script src="https://kit.fontawesome.com/500df033a6.js " crossorigin="anonymous "></script>
+
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="barra-lateral">
+                <nav class="nav menu d-flex d-sm-block justify-content-center flex-wrap">
+                    <a href="#titulo" class="nav-link"><span class="fas fa-home"></span> Inicio</a>
+                    <a href="#carouselT" class="nav-link"><span class="far fa-images"></span> Carousel</a>
+                    <a href="#dragNDrop" class="nav-link"><span class="far fa-hand-rock"></span> Drag n' Drop</a>
+                    <a href="#redes" class="nav-link"><span class="fas fa-at"></span> Contacto</a>
+                    
+
+                </nav>
+            </div>
+
+
+            <main class="col-12">
+
+                <h1 class="text-center " id="titulo"><span class="typed">Random Page... </span> </h1>
+
+
+
+                <div class="row" style="width: 80%; float: right;">
+                    	<div class="col mt-5">
+                        <div class="card-columns mb-5">
+                            <div class="card" data-aos="fade-down-right">
+                                <img src="img/S3_Tyrannosaur.jpg" class="   card-img-top img-fluid" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, laudantium!</p>
+                                </div>
+                            </div>
+                            <div class="card" data-aos="fade-up-right">
+                                <img src="img/S4_Idea.jpg" class="card-img-top    img-fluid" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, possimus!</p>
+                                </div>
+                            </div>
+                            <div class="card" data-aos="flip-down">
+                                <img src="img/S5_Working from Home.jpg" class="    card-img-top img-fluid" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, accusantium.</p>
+                                </div>
+                            </div>
+                            <div class="card" data-aos="slide-up">
+                                <img src="img/S5_Flask with Objects.jpg" class="   card-img-top img-fluid" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, ut.</p>
+                                </div>
+                            </div>
+                            <div class="card" data-aos="fade-down-left">
+                                <img src="img/S1_Tyrannosaur.jpg" class="   card-img-top img-fluid" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, error!</p>
+                                </div>
+                            </div>
+                            <div class="card" data-aos="fade-up-left">
+                                <img src="img/S5_Files(1).jpg" class="card-img-top   img-fluid" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, accusamus!</p>
+                                </div>
+                            </div>
+                    	</div>
+                        <hr />
+                        <div class="col d-flex justify-content-center">
+                            <div class="col-12 col-md-9">
+                                <h2 class="text-center" id="carouselT" style="text-align: center;">Carousel</h2>
+                                <div id="carousel" class="carousel slide border-dark" data-ride="carousel">
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/carousel1.jpg" data-holder-rendered="true">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/carousel2.jpg" data-holder-rendered="true">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/carousel3.jpg" data-holder-rendered="true">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/carousel4.jpg" data-holder-rendered="true">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/carousel5.jpg" data-holder-rendered="true">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <hr />
+                        		<h2 style="text-align: center;" id="dragNDrop">Drag n' Drop</h2>
+                        		<button class="btn btn-dark" id="drag">Por acá!</button>
+                        <div class="col  d-flex justify-content-center drag" style="margin-bottom: 50px;">
+
+                        	<div class="row">
+                        		<div class="col-3">
+									<ul class="list-group" id="simpleList">
+										<li><img src="img/list1.jpg" alt=""></li>
+										<li><img src="img/list2.jpg" alt=""></li>
+										<li><img src="img/list3.jpg" alt=""></li>								
+									</ul>
+                        			
+                        		</div>
+                        		<div class="col-3">
+									<ul class="list-group" id="simpleList1">
+										<li><img src="img/list4.jpg" alt=""></li>
+										<li><img src="img/list5.jpg" alt=""></li>
+										<li><img src="img/list6.jpg" alt=""></li>
+									</ul>
+                        			
+                        		</div>
+                        		<div class="col-3">
+									<ul class="list-group" id="simpleList2">
+										<li><img src="img/list7.jpg" alt=""></li>
+										<li><img src="img/list8.jpg" alt=""></li>
+										<li><img src="img/list9.jpg" alt=""></li>
+									</ul>
+                        			
+                        		</div>
+                        		<div class="col-3">
+									<ul class="list-group" id="simpleList3">
+										<li><img src="img/list10.jpg" alt=""></li>
+										<li><img src="img/list11.jpg" alt=""></li>
+										<li><img src="img/list12.jpg" alt=""></li>
+									</ul>
+                        			
+                        		</div>
+                        	</div>
+                        </div>
+
+                                
+									
+                 <div class="row justify-content-center m-5">
+                     <div class="col-4 elevator-button text-center" id="icon"><span class="far fa-arrow-alt-circle-up"></span></div>
+                 </div>
+                             
+									
+                 </div>
+
+
+            </main>
+
+
+            <footer id="redes">
+                <div class="container mt-2">
+                    <div class="row text-center">
+                        <div class="col redes mb-2">
+                         <a href="https://www.linkedin.com/in/kenji-arakaki-75026112a/" title="Linkedin"><span class="fab fa-linkedin mb-2"></span> Linkedin</a>
+                         
+                         <a href="mailto:kenji.arakaki93@gmail.com" title="E-mail"><span class="far fa-envelope"></span> E-mail</a>
+
+                         <a href="https://kenjiarakaki1993.web.app/" title="Portfolio"><span class="far fa-folder"></span> Portafolio</a>
+                    </div>
+                </div>
+                </div>
+            </footer>
+           
+        </div>
+
+        <script src="js/typed.js"></script>
+        <script src="js/sortable.min.js"></script>
+        <script src="js/elevator.min.js"></script>
+        <script src="js/aos.js"></script>
+        <script src="js/sweetalert2.js"></script>
+        <script src="js/jquery-3.5.0.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+         <script src="js/main.js"></script>
+        <script>
+        	AOS.init({
+        		delay: 150,
+        		duration: 1000,
+        		offset: 400,
+        		
+        	});
+
+
+        </script>
+
+        <script>
+        	$('#drag').click(function(){
+        		Swal.fire({
+        			text: 'Arrastrá y cambiá a las mascotas de lugar!',
+        			imageUrl: 'img/list6.jpg',
+        			
+        		})
+        			
+        	});
+        </script>
+</body>
+
+</html>
